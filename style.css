@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.titulo-balance{
+    border: 0.2em solid goldenrod;
+    text-align: center;
+    background-color: slategray;
+    color: white;
+}
+
+.tabla-formularios{
+    display: flex;
+    border: 0.2em solid navy;
+    text-align: center;
+    background-color: darkgray;
+}
+
+.tabla-ingresos{
+    color: darkgreen;
+    flex: 1;
+    padding: 3px;
+    margin: 3px;
+    border: 3px dashed green;
+}
+
+.tabla-gastos{
+    color: darkred;
+    flex: 1;
+    padding: 3px;
+    margin: 3px;
+    border: 3px dashed red;
+}
+
+.btn-agregar-ingreso{
+    font-size: 1.2em;
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+}
+
+.btn-agregar-gasto{
+    font-size: 1.2em;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+}

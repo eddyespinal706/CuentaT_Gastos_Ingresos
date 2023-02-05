@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cuenta T para Gastos e Ingresos.</title>
+</head>
+<body>
+    <div class="titulo-balance">
+        <h1>Calculo de Gastos e Ingresos personales.</h1>
+        <h2>Balance: <label id="valor-balance"></label></h2>
+    </div>
+    <div id="tabla-formularios" class="tabla-formularios">
+        <div class="tabla-ingresos">
+            <h3 class="titulo-ingresos">Ingresos:</h3>
+            <form action="" id="form-ingresos" class="form-ingresos">
+                <label for="descripcion-ingresos">Descripcion:</label>
+                <input type="text" name="descripcion-ingresos" id="descripcion-ingresos" placeholder="Descripcion del ingreso."><br><br>
+                <label for="valor-ingresos">Valor en DOP(RD$):</label>
+                <input type="number" name="valor-ingresos" id="valor-ingresos" placeholder="Valor del ingreso."><br><br>
+                <input type="submit" value="Agregar Ingreso" class="btn-agregar-ingreso">
+            </form>
+        </div>
+
+        <div class="tabla-gastos">
+            <h3 class="titulo-gastos">Gastos:</h3>
+            <form action="" id="form-gastos" class="form-gastos">
+                <label for="descripcion-gastos">Descripcion:</label>
+                <input type="text" name="descripcion-ingresos" id="descripcion-ingresos" placeholder="Descripcion del gasto."><br><br>
+                <label for="valor-gasto">Valor en DOP(RD$):</label>
+                <input type="number" name="valor-gasto" id="valor-gasto" placeholder="Valor del gasto."><br><br>
+                <input type="submit" value="Agregar Gasto" class="btn-agregar-gasto">
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
