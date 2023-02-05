@@ -25,10 +25,11 @@ formIngresos.addEventListener('submit', (e) =>{
         const ingresos = {
             descripcion: descIngresos.value,
             valor: valIngresos.value,
-        }
+        }/*
         for(let key in ingresos) {
             listaIngresos.push(ingresos[key]);
-        }
+        }*/
+        listaIngresos.push[ingresos]
         
     }
     for(let i=0;i< listaIngresos.length;i++){
