@@ -19,7 +19,7 @@ let listaGastos =[]
 
 formIngresos.addEventListener('submit', (e) =>{
     e.preventDefault()
-    if (descIngresos.value == "" || valIngresos.value == "") {
+    if (descIngresos.value === "" || valIngresos.value === "") {
         alert("No puede dejar ningun campo vacio")
     }else{
         const ingresos = {
@@ -27,8 +27,9 @@ formIngresos.addEventListener('submit', (e) =>{
             valor: valIngresos.value,
         }
         for(let key in ingresos) {
-            listaIngresos.push(ingresos[key])
+            listaIngresos.push(ingresos[key]);
         }
+        
     }
     for(let i=0;i< listaIngresos.length;i++){
         console.log(listaIngresos[i])
@@ -39,7 +40,7 @@ formIngresos.addEventListener('submit', (e) =>{
 
 formGastos.addEventListener('submit', (e) =>{
     e.preventDefault()
-    if (descGastos.value == "" || valGastos.value == "") {
+    if (descGastos.value === "" || valGastos.value === "") {
         alert("No puede dejar ningun campo vacio")
     }else{
         const gastos = {

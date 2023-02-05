@@ -14,7 +14,7 @@
     </div>
     <div id="tabla-formularios" class="tabla-formularios">
         <div class="tabla-ingresos">
-            <h3 class="titulo-ingresos">Ingresos:</h3>
+            <h3 class="titulo-ingresos">Ingresos: <label id="total-ingresos"></label></h3>
             <form action="" id="form-ingresos" class="form-ingresos">
                 <label for="descripcion-ingresos">Descripcion:</label>
                 <input type="text" name="descripcion-ingresos" id="descripcion-ingresos" placeholder="Descripcion del ingreso."><br><br>
@@ -25,12 +25,12 @@
         </div>
 
         <div class="tabla-gastos">
-            <h3 class="titulo-gastos">Gastos:</h3>
+            <h3 class="titulo-gastos">Gastos: <label id="total-gastos"></label></h3>
             <form action="" id="form-gastos" class="form-gastos">
                 <label for="descripcion-gastos">Descripcion:</label>
-                <input type="text" name="descripcion-ingresos" id="descripcion-ingresos" placeholder="Descripcion del gasto."><br><br>
+                <input type="text" name="descripcion-gastos" id="descripcion-gastos" placeholder="Descripcion del gasto."><br><br>
                 <label for="valor-gasto">Valor en DOP(RD$):</label>
-                <input type="number" name="valor-gasto" id="valor-gasto" placeholder="Valor del gasto."><br><br>
+                <input type="number" name="valor-gasto" id="valor-gastos" placeholder="Valor del gasto."><br><br>
                 <input type="submit" value="Agregar Gasto" class="btn-agregar-gasto">
             </form>
         </div>
